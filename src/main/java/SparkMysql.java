@@ -16,9 +16,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by Administrator on 2017/11/6.
- */
+
 public class SparkMysql implements Serializable{
     public static org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(SparkMysql.class);
 
