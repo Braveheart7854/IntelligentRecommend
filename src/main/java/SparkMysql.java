@@ -37,8 +37,8 @@ public class SparkMysql implements Serializable{
         String table = "ratings";
         //增加数据库的用户名(user)密码(password),指定test数据库的驱动(driver)
         Properties connectionProperties = new Properties();
-        connectionProperties.put("user","root");
-        connectionProperties.put("password","hello123");
+        connectionProperties.put("user","****");
+        connectionProperties.put("password","******");
         connectionProperties.put("driver","com.mysql.jdbc.Driver");
 
         //SparkJdbc读取Postgresql的products表内容
